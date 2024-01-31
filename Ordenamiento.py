@@ -9,7 +9,12 @@ def insercion(elements: list)->list:
     """Algoritmo de ordenamiento por insercion
     Este algoritmo inicia desde la segunda posicion del segundo elemento del arreglo
     En el mejor de los caso el arreglo esta ordenado y solo hace una corrida, por lo cual la complejidad es O(n)
-    El peor tiempo de ejecución es cuando todo el arreglo esta invertido por lo cual la complejidad es O(n²)"""
+    El peor tiempo de ejecución es cuando todo el arreglo esta invertido por lo cual la complejidad es O(n²)
+   args:
+      elements: Lista de elementos a ordenar
+   returns:
+      elements: Lista ordenada
+"""
 
     #Si el arreglo de elementos es menor a 2 elementos, entonces el arreglo esta ordenado
     if len(elements) <= 1:
